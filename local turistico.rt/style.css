@@ -1,0 +1,67 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Títulos */
+.main-title {
+    text-transform: uppercase;
+    color: #e1624f;
+    text-align: center;
+    margin: 40px 0;
+}
+
+h2 {
+    margin-bottom: 16px;
+}
+
+/* Imagens */
+img {
+    width: 100%;
+    border-radius: 28px;
+    object-fit: cover;
+}
+
+.main-image {
+    height: 300px;
+}
+
+.legend {
+    font-style: italic;
+    color: #555;
+    text-align: center;
+    margin-top: 8px;
+}
+
+/* Lista de Atrações */
+.attraction-list {
+    list-style: none;
+    margin-top: 30px;
+}
+
+.attraction-list li {
+    margin-bottom: 40px;
+}
+
+/* Estilo do marcador da lista (dica fornecida) */
+.attraction-list li::marker {
+    color: #e1624f;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    border-top: 1px solid #d9d9d9;
+}
